@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-color: bisque;
+    scroll-behavior: smooth;
+}
+
+/* General Body Styles */
+
+
+/* Container for the entire page */
+.home-holder {
+    max-width: 1200px;
+    /* Max width for the content */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 20px;
+    /* Padding around the container */
+}
+
+/* Fixed Header Styles */
+.fixed {
+    background-color: #333;
+    /* Dark background for the header */
+    color: white;
+    /* White text color */
+    padding: 20px;
+    /* Padding inside the header */
+    text-align: center;
+    /* Center text */
+    position: sticky;
+    /* Sticky position to keep it on top */
+    top: 0;
+    /* Stick to the top */
+    z-index: 1000;
+    /* Ensure it stays above other content */
+}
+
+/* Header Title Styles */
+.fixed h1 {
+    margin: 0;
+    /* Remove default margin */
+    font-size: 2.5em;
+    /* Large title size */
+    color: chartreuse;
+}
+
+/* Certification Text */
+.fixed p {
+    font-size: 1.2em;
+    /* Slightly smaller font for certification */
+    color: grey;
+}
+
+/* Special Content Section Styles */
+.special-cont {
+    background-color: white;
+    /* White background for each special */
+    border: 1px solid #ddd;
+    /* Light border */
+    border-radius: 10px;
+    /* Rounded corners */
+    margin: 20px 0;
+    /* Space between sections */
+    padding: 15px;
+    /* Padding inside each special */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    text-align: center;
+    /* Center content */
+}
+
+/* Special Item Title Styles */
+.special-cont h1 {
+    font-size: 1.5em;
+    /* Size for the special title */
+    margin-bottom: 10px;
+    /* Space below the title */
+}
+
+/* Image Styles */
+.special-cont img {
+    width: 300px;
+    /* Set a specific width */
+    height: 200px;
+    /* Set a specific height */
+    object-fit: cover;
+    /* Ensure the image covers the specified dimensions without distortion */
+    border-radius: 10px;
+    /* Match rounded corners */
+}
+
+
+/* Button Styles */
+button {
+    background-color: #28a745;
+    /* Bootstrap green for buttons */
+    color: white;
+    /* White text */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded button corners */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 1em;
+    /* Button font size */
+    transition: background-color 0.3s;
+    /* Transition for hover effect */
+}
+
+button:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+}
+
+/* Footer Styles */
+.foot-bott {
+    text-align: center;
+    /* Center the button */
+    margin: 20px 0;
+    /* Margin around the button */
+}
+
+.footer {
+    background-color: #333;
+    /* Dark background for footer */
+    color: white;
+    /* White text color */
+    padding: 10px;
+    /* Padding inside footer */
+    text-align: center;
+    /* Center text */
+}
+
+/* Marquee Text Styles */
+.footer p {
+    margin: 0;
+    /* Remove default margin */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .special-cont {
+        margin: 10px 0;
+        /* Reduce margin on smaller screens */
+    }
+
+    button {
+        width: 100%;
+        /* Full-width buttons on smaller screens */
+    }
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu 🍴</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="../styles/inside-menu.CSS">
+</head>
+
+<body>
+    <header>
+        <a href="../../index.html" style="text-decoration: none;">
+            <h1>David Chu's China Bistro</h1>
+        </a>
+        <p>Chinese Certified ✔</p>
+    </header>
+    <div class="container">
+        <!-- Header Section -->
+
+        <!-- Menu Navigation -->
+        <div class="menu-bar">
+            <nav class="d-none d-md-block">
+                <ul>
+                    <li><a href="./menu-inside-rate.HTML">Rate</a></li>
+                </ul>
+            </nav>
+            <!-- <button onclick="openPop()">
+                <span class="material-symbols-outlined">menu</span>
+            </button> -->
+        </div>
+
+        <!-- Popup Menu for mobile -->
+        <!-- <div class="popup-menu" id="pop" style="display: none;">
+            <div class="popup-inner">
+                <h1>Menu</h1>
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="./menu-inside-rate.HTML">Rate</a></li>
+                    <li><a href="#">Order</a></li>
+                    <button onclick="closePop()">
+                        <span class="material-symbols-outlined">disabled_by_default</span>
+                    </button>
+                </ul>
+            </div>
+        </div> -->
+
+        <!-- Menu Categories -->
+        <section id="menu-section">
+            <h2 class="text-center">Menu Categories</h2><br>
+            <p class="text-center">"Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for
+                a pint and $2.50 for a quart."</p><br>
+            <div class="card-grid">
+                <!-- Breakfast Card -->
+                <div class="card">
+                    <a href="./BREAKFAST.HTML">
+                        <img src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/02/full-english-7355w-2.jpg"
+                            alt="Breakfast">
+                        <h5>Breakfast</h5>
+                    </a>
+                </div>
+
+                <!-- Lunch Card -->
+                <div class="card">
+                    <a href="./LUNCH.HTML">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiVKqKN0m0QppdWMgYBhIb9tbHbLVHfEVOfw&s"
+                            alt="Lunch">
+                        <h5>Lunch</h5>
+                    </a>
+                </div>
+
+                <!-- Grilled Chicken Card -->
+                <div class="card">
+                    <a href="./GRILLEDCHICKEN.HTML">
+                        <img src="https://www.allrecipes.com/thmb/xNb_l8rpNkFB0i7MqcRjxgbmGoo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/241890-grilled-chicken-marinade-DDMFS-4x3-93bf452481e645808c72f13349340582.jpg"
+                            alt="Grilled Chicken">
+                        <h5>Grilled Chicken</h5>
+                    </a>
+                </div>
+
+                <!-- Soups Card -->
+                <div class="card">
+                    <a href="./SOUPS.HTML">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFBy-vplZChIBcQAJ8rmPdKsVzZ7Ph9Ad3Fg&s"
+                            alt="Soups">
+                        <h5>Soups</h5>
+                    </a>
+                </div>
+
+                <!-- Drinks Card -->
+                <div class="card">
+                    <a href="./DRINKS.HTML">
+                        <img src="https://www.incredibleman.in/wp-content/uploads/2022/09/6-Morning-Drinks-To-Help-You-Achieve-Glowing-And-Radiant-Skin.jpg" alt="Drinks">
+                        <h5>Drinks</h5>
+                    </a>
+                </div>
+
+                <!-- Ice Creams Card -->
+                <div class="card">
+                    <a href="./ICRECREAMS.HTML">
+                        <img src="../../backend/images/ic.webp" alt="Ice Creams">
+                        <h5>Ice Creams</h5>
+                    </a>
+                </div>
+
+                <!-- Desserts Card -->
+                <div class="card">
+                    <a href="./DESERTS.HTML">
+                        <img src="../../backend/images/dst.jpeg" alt="Desserts">
+                        <h5>Desserts</h5>
+                    </a>
+                </div>
+
+                <!-- Pancakes Card -->
+                <div class="card">
+                    <a href="./PANCAKES.HTML">
+                        <img src="../../backend/images/pn.jpg" alt="Pancakes">
+                        <h5>Pancakes</h5>
+                    </a>
+                </div>
+
+                <!-- Cakes Card -->
+                <div class="card">
+                    <a href="./CAKES.HTML">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREcUrcH8BpmbJ7JAN8h68R9CcGICB-hFnLPw&s" alt="Cakes">
+                        <h5>Cakes</h5>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <!-- Footer Section -->
+
+    </div>
+    <div class="fll">
+        <footer>
+            <div>
+                <p><span class="sub"><strong>Hours:</strong></span><br>Sun-Thurs: 11:15am-10:00pm<br>Fri: 11:15am-2:30pm<br>Saturday Closed
+                </p>
+            </div>
+            <div>
+                <p><span class="sub"><strong>Address:</strong></span><br>7105 Reisterstown Road<br>Baltimore, MD 21215</p>
+                <p class="text-success" style="font-size: 0.8em;">*Delivery area within 3-4 miles, with a minimum
+                    order
+                    of $20 plus a $3 charge for all deliveries.</p>
+            </div>
+            <div>
+                <p><span class="sub"><strong>Reviews:</strong></span><br>"The best Chinese restaurant I've been to!"<br>"Amazing food! Great
+                    service!"</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        function openPop() {
+            document.getElementById('pop').style.display = 'flex';
+        }
+
+        function closePop() {
+            document.getElementById('pop').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

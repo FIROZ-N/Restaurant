@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-color: bisque;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #333;
+}
+
+header h1 {
+    font-size: xx-large;
+    margin: 0;
+    color: chartreuse;
+}
+
+header p {
+    font-size: small;
+    color: grey;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-bar ul li {
+    margin-right: 20px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2em;
+    transition: all ease .9s;
+}
+
+ul li a:hover {
+    color: chartreuse;
+    transition: all ease .9s;
+}
+
+a {
+    transition: all ease .9s;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: chartreuse;
+    transition: all ease .9s;
+}
+
+/* .popup-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+} */
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h5 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: chartreuse;
+}
+
+/* Footer Styles *//* Footer Styles */
+footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the content */
+    width: 100%; /* Ensure full width */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the sections */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    margin-top: 40px; /* Space above footer */
+}
+
+footer div {
+    flex: 1; /* Allow each div to grow equally */
+    min-width: 200px; /* Minimum width for responsiveness */
+    margin: 10px; /* Space around each section */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+
+footer .text-success {
+    color: #28a745; /* Bootstrap green color for success */
+}
+
+footer strong {
+    font-size: 1.1em; /* Slightly larger font for strong text */
+}
+.sub {
+    color: chartreuse;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-color: bisque;
+}
+
+
+.home-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.hold {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.fixed {
+    background-color: #292b2c;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 40px 0px;
+}
+
+.fixed h1 {
+    font-size: 24px;
+    text-align: center;
+    color: chartreuse;
+}
+
+.fixed p {
+    text-align: center;
+    color: grey;
+    margin: 0;
+}
+
+.map-cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cont img {
+    width: 100%;
+    max-width: 800px;
+    /* Set maximum width for the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
+}
+
+.foot-but {
+    margin-top: 20px;
+    /* Space above the button */
+}
+
+button {
+    text-align: center;
+    background-color: black;
+    /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+@media (max-width: 600px) {
+    .fixed h1 {
+        font-size: 20px;
+        /* Smaller title on mobile */
+    }
+
+    button {
+        width: 100%;
+        /* Full width button on mobile */
+    }
+}

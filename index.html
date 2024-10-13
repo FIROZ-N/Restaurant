@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackRose Restaurant</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQivJ_qtSQQqap_waf8m5Diuf4u8l2JS2IAQ&s"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./frontend/styles/index.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="container">
+            <header>
+                <nav class="navbar">
+                    <div class="navbar-header">
+                        <div class="navbar-brand">
+                            <a href="#">
+                                <h2 class="sub-title">David Chu's China Bistro</h2>
+                                <h1>BlackRose Restaurant</h1>
+                            </a>
+                            <p><span>Kosher Certified ✔</span></p>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button onclick="openMenu()" class="menu-toggle">
+                            <span class="material-symbols-outlined">menu</span>
+                        </button>
+                        <button onclick="closeMenu()" class="menu-close" style="display:none;">
+                            <span class="material-symbols-outlined">close</span>
+                        </button>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="navbar-menu">
+                <ul class="menu-list">
+                    <li><a href="./frontend/pages/inside-menu.html" target="_blank">Menu <sup><span
+                                    class="material-symbols-outlined">dining</span></sup></a></li>
+                    <li><a href="./frontend/pages/inside-about.html" target="_blank">About <sup><span
+                                    class="material-symbols-outlined">error</span></sup></a></li>
+                    <li><a href="./frontend/pages/inside-award.html" target="_blank">Awards <sup><span
+                                    class="material-symbols-outlined">workspace_premium</span></sup></a></li>
+                </ul>
+            </div>
+            <section class="landing-intro">
+                <div class="sec">
+                    <h1>Welcome to BlackRose Restaurant</h1>
+                    <p>Experience the best in kosher dining at <strong>BlackRose Restaurant</strong>, where tradition
+                        meets
+                        innovation. Our menu features a delightful array of authentic dishes crafted with the finest
+                        ingredients, designed to tantalize your taste buds and create memorable moments.</p>
+                    <a href="./frontend/pages/inside-menu.html" class="btn">View Menu</a>
+                </div>
+            </section>
+            <div class="card-cont">
+                <section class="feature-tiles">
+                    <div class="card">
+                        <a href="./frontend/pages/inside-menu.html">
+                            <div class="tile" id="menu-tile">
+                                <img src="https://cdn.kwork.com/files/portfolio/t0/11/3580f7f9108818f75f83ba84dedcdbca51b4824b-1643814311.jpg" alt="Menu" class="card-image">
+                                <div class="overlay">
+                                    <span class="overlay-text">View Our Menu</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="./frontend/pages/app-special.HTML">
+                            <div class="tile" id="specials-tile">
+                                <img src="https://www.shutterstock.com/shutterstock/photos/2322291647/display_1500/stock-vector-fast-food-special-menu-vector-eps-2322291647.jpg" alt="Specials" class="card-image">
+                                <div class="overlay">
+                                    <span class="overlay-text">Check Specials</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="./frontend/pages/MAP.HTML" target="_blank">
+                            <div class="tile" id="map-tile">
+                                <img src="./backend/images/map.jpg" alt="Map" class="card-image">
+                                <div class="overlay">
+                                    <span class="overlay-text">Find Us</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div class="secc">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+            <footer>
+                <div class="showcase">
+                    <div class="showcase-content">
+                        <h2>BlackRose Restaurant</h2>
+                        <br>
+                        <p>At <span><strong>BlackRose Restaurant</strong></span>, we pride ourselves on offering a
+                            unique blend of
+                            <span><strong>kosher-certified</strong></span> cuisine with a modern twist. Located in the
+                            heart of
+                            <span><strong>Baltimore</strong></span>, our menu features authentic flavors crafted from
+                            the finest
+                            ingredients, ensuring an unforgettable dining experience.
+                        </p>
+                        <br>
+                        <h3>Why Choose Us?</h3>
+                        <ul class="showcase-features">
+                            <li><span class="sub"><strong>Delicious Kosher Cuisine:</strong></span> A wide variety of
+                                flavorful dishes, from
+                                traditional favorites to innovative creations.</li>
+                            <li><span class="sub"><strong>Warm Ambiance:</strong></span> A cozy and welcoming atmosphere
+                                perfect for family
+                                gatherings, date nights, or business dinners.</li>
+                            <li><span class="sub"><strong>Exceptional Service:</strong></span> Our attentive staff is
+                                dedicated to making every
+                                visit memorable.</li>
+                        </ul>
+
+                        <h3>Hours of Operation</h3>
+                        <p>
+                            <span class="sub"><strong>Sunday - Thursday : </strong></span> 11:15 AM - 10:00 PM<br>
+                            <span class="sub"><strong>Friday : </strong></span> 11:15 AM - 2:30 PM<br>
+                            <span class="sub"><strong>Saturday : </strong></span> Closed
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <hr color="chartreuse">
+                <br>
+                <div class="footer-content">
+                    <h1>BlackRose Restaurant</h1>
+                    <div class="footer-details">
+                        <div class="business-hours">
+                            <h3>Business Hours</h3>
+                            <p><strong>Sun-Thurs:</strong> 11:15 AM - 10:00 PM<br>
+                                <strong>Fri:</strong> 11:15 AM - 2:30 PM<br>
+                                <strong>Sat:</strong> Closed
+                            </p>
+                        </div>
+                        <div class="restaurant-address">
+                            <h3>Address</h3>
+                            <p>7105 Reisterstown Road, Baltimore, MD 21215</p>
+                        </div>
+                        <div class="customer-reviews">
+                            <h3>Customer Reviews</h3>
+                            <blockquote>"Best Chinese food, kosher, and well-priced!"</blockquote>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <p class="delivery-info">* Delivery area within 3-4 miles, with a minimum order of $20 plus a
+                    $3 charge for all deliveries.</p>
+            </footer>
+
+        </div>
+    </div>
+    <hr color="chartreuse">
+    <div class="contact-info">
+        <h3>Need Assistance?</h3>
+        <p>📞 Call us at <span style="color: chartreuse;"><strong>0471-9090-8787</strong></span></p>
+        <p>We're here to help you enjoy the best dining experience! 🍽️</p>
+    </div>
+
+    <script src="./frontend/js/index.JS"></script>
+</body>
+
+</html>

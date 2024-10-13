@@ -26,7 +26,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 25px 60px;
+    padding: 25px 30px;
     background-color: #333;
     z-index: 1001;
     /* Ensures the navbar is above content */
@@ -123,10 +123,12 @@ body {
 
 .sec {
     padding-top: 100px;
-    position: absolute;
+    position: relative;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+    width: 80%;
+    min-width: 280px;
+    margin: 0 auto;
 }
 
 .landing-intro h1 {
@@ -140,6 +142,7 @@ body {
     line-height: 1.6;
     margin: 0 auto;
     color: white;
+    width: 100%;
 }
 
 .landing-intro .btn {
@@ -356,6 +359,7 @@ blockquote {
 
 /* Responsive Design */
 @media (min-width: 768px) {
+
     .footer-details {
         flex-direction: row;
         justify-content: space-between;

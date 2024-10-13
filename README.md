@@ -1,91 +1,104 @@
-BlackRose Restaurant Website
-This project is a web-based informational site for BlackRose Restaurant, showcasing its awards, history, and restaurant details. The website features multiple pages that provide a smooth user experience, highlighting the restaurant’s achievements and unique characteristics.
+---
 
-Table of Contents
-Project Overview
-Features
-Technologies Used
-Project Structure
-Setup Instructions
-Usage
-Contributing
-License
-Project Overview
-The BlackRose Restaurant Website is built using modern web development practices. It includes a detailed About Us section, Awards page, and Contact/Follow section, all designed to provide users with relevant information about the restaurant and its achievements.
+# BlackRose Restaurant Website
 
-The website features a responsive design, ensuring a seamless user experience across various screen sizes and devices.
+The **BlackRose Restaurant Website** is an informational platform that showcases the restaurant's awards, history, and details about the owner and the restaurant itself. It is designed to provide users with an engaging and easy-to-navigate experience, featuring various sections that highlight the restaurant’s unique characteristics.
 
-Features
-Responsive Design: Ensures compatibility with all device sizes (mobile, tablet, desktop).
-Awards Section: A dedicated page showcasing the restaurant’s key achievements and awards with images and descriptions.
-About Us Page: Details about the restaurant’s history, its owner, and its establishment.
-Social Media Links: Links to the restaurant's social media profiles in the footer.
-Navigation: Simple, intuitive navigation with links to different sections of the site.
-Technologies Used
-HTML5: Markup language used to structure the pages.
-CSS3: For styling the layout, including responsive design.
-JavaScript: For interactive elements.
-Google Fonts: Custom font used across the website.
-Images: Local images used for the awards and restaurant details.
-Project Structure
-bash
-Copy code
+## Features
+
+- **Responsive Design**: Compatible with all screen sizes, from mobile to desktop.
+- **Awards Page**: A dedicated section that showcases the restaurant’s key achievements.
+- **About Us Section**: Information on the history, owner, and establishment of the restaurant.
+- **Social Media Integration**: Links to the restaurant’s social media profiles.
+- **Simple Navigation**: Easy-to-use navigation to move between pages.
+
+## Technologies Used
+
+- **HTML5**: For page structure.
+- **CSS3**: For styling and responsive design.
+- **JavaScript**: For interactive features.
+- **Google Fonts**: For custom typography.
+- **Images**: Local images for the restaurant and awards.
+
+## Project Structure
+
+```
 BlackRose-Restaurant/
 ├── backend/
-│   ├── images/
-│   │   ├── ard.jpeg          # Award image 1
-│   │   ├── ard1.jpg          # Award image 2
-│   │   ├── ard3.jpg          # Award image 3
-│   │   ├── resdet.jpg        # Restaurant detail image
-│   │   ├── own.jpg           # Owner's image
-│   │   ├── instagram.svg     # Social media icon
-│   │   ├── facebook.svg      # Social media icon
-│   │   ├── twitter.svg       # Social media icon
-│   │   ├── linkedin.svg      # Social media icon
+│   └── images/
+│       ├── ard.jpeg
+│       ├── ard1.jpg
+│       ├── ard3.jpg
+│       ├── resdet.jpg
+│       ├── own.jpg
+│       ├── instagram.svg
+│       ├── facebook.svg
+│       ├── twitter.svg
+│       └── linkedin.svg
 ├── frontend/
-│   ├── index.html            # Homepage
-│   ├── about.html            # About Restaurant page
-│   ├── awards.html           # Awards page
-│   └── contact.html          # Contact and follow us page
+│   ├── index.html
+│   ├── about.html
+│   ├── awards.html
+│   └── contact.html
 ├── styles/
-│   ├── inside-about.css      # Styles for About page
-│   ├── inside-award.css      # Styles for Awards page
+│   ├── inside-about.css
+│   └── inside-award.css
 └── scripts/
-    ├── inside-award.js       # JavaScript for interactive behavior on Awards page
-Setup Instructions
-Prerequisites
-Make sure you have a web browser (such as Chrome, Firefox, or Safari) installed.
+    └── inside-award.js
+```
 
-Steps to Run
-Clone the repository:
+## Setup Instructions
 
-bash
-Copy code
-git clone https://github.com/yourusername/BlackRose-Restaurant.git
-Navigate to the Project Directory:
+### Prerequisites
 
-bash
-Copy code
-cd BlackRose-Restaurant
-Open the index.html file in a browser:
+- A web browser (Chrome, Firefox, etc.)
 
-You can directly open the file in a web browser by double-clicking on the index.html file located inside the frontend folder, or you can use a code editor like Visual Studio Code with live server extension enabled.
+### Steps to Run
 
-File Paths
-About Page: frontend/about.html
-Awards Page: frontend/awards.html
-Running the Project
-You can open the index.html file in your browser to see the homepage of the BlackRose Restaurant website. From there, navigate to other pages (like the About and Awards pages) via the links provided in the header.
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/yourusername/BlackRose-Restaurant.git
+   ```
 
-Usage
-The site is responsive and can be viewed on both desktop and mobile devices.
-Links to social media profiles are included in the footer for users to follow.
-The Awards page contains the restaurant's major awards with relevant descriptions.
-Contributing
-Fork the project.
-Create your feature branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -m 'Add YourFeature').
-Push to the branch (git push origin feature/YourFeature).
-Open a Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+2. **Navigate to the project directory**:
+   ```
+   cd BlackRose-Restaurant
+   ```
+
+3. **Open `index.html` in your browser**:
+   - Locate `index.html` in the `frontend/` directory.
+   - Open it directly in a browser, or use a code editor with live server functionality.
+
+### Navigation Paths
+
+- **About Page**: `frontend/about.html`
+- **Awards Page**: `frontend/awards.html`
+
+## Usage
+
+- The website is designed for use on both desktop and mobile devices.
+- Social media icons in the footer link to relevant profiles.
+- The Awards section displays key achievements, with supporting images and descriptions.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes:
+   ```
+   git commit -m 'Add YourFeature'
+   ```
+4. Push the branch:
+   ```
+   git push origin feature/YourFeature
+   ```
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---

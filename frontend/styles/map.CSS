@@ -27,6 +27,7 @@ body {
 .hold {
     width: 100%;
     max-width: 1200px;
+    overflow-x: scroll;
 }
 
 .fixed {
@@ -37,7 +38,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 
 .fixed h1 {
@@ -59,11 +60,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.cont img {
+.cont iframe {
     width: 100%;
-    max-width: 800px;
+
     /* Set maximum width for the image */
-    height: auto;
     /* Maintain aspect ratio */
     border-radius: 10px;
     /* Rounded corners */
@@ -98,10 +98,5 @@ button:hover {
     .fixed h1 {
         font-size: 20px;
         /* Smaller title on mobile */
-    }
-
-    button {
-        width: 100%;
-        /* Full width button on mobile */
     }
 }

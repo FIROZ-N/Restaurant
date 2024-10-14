@@ -86,13 +86,12 @@ a:hover {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 30px;
-    margin-top: 40px;
 }
 
 .footer-detail p {
-    font-size: 1.2rem;
-    line-height: 1.8;
+    font-size: smaller;
+    padding: 0px 50px;
+    color: grey;
 }
 
 .footer-detail span {
@@ -103,9 +102,9 @@ a:hover {
 
 /* Centered "Back to Home" link */
 center a {
-    font-size: 1.5rem;
+    font-size: small;
     color: #ff686b;
-    margin-top: 20px;
+    margin: 30px 0px;
     display: inline-block;
 }
 
